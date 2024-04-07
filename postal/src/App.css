@@ -1,0 +1,74 @@
+.container {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to bottom, rgb(0, 145, 255), rgb(38, 89, 255));
+}
+.typeHeading{
+  margin: 0;
+}
+.choose {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.choose select{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-weight:600 ;
+  text-align: center;
+   
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+  
+
+.input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 10px;
+}
+
+.input button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Responsive styles
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .input input,
+  .input button {
+    padding: 6px;
+  }
+
+  .result {
+    padding: 8px;
+  }
+} */
